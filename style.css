@@ -1,0 +1,56 @@
+body{
+    background-color: #20639b;
+}
+
+.Input{
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.image{
+    width: 20px;
+    height: 20px;
+}
+.button{
+    border-radius: 40%;
+    width: 20px;
+    margin-left: 50px;
+    margin-bottom: -5px;
+    cursor: pointer;
+}
+
+.Weather-div{
+    border-radius: 2%;
+    margin: auto;
+    width: 450px;
+    height: 90px;
+    background-color: #173f5f;
+    transition: height 2s;
+}
+
+.info{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.Weather-div.expanded{
+    width: 450px;
+    height: 400px;
+}
+
+.title{
+    text-align: center;
+}
+
+.weather-info{
+    display: none;
+}
+
+.header{
+    margin-left: 60px;
+}
+
+.Data{
+    padding-top: 20px;
+    margin-left: 20px;
+}
