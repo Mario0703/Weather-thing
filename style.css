@@ -15,6 +15,19 @@ body{
     width: 20px;
     height: 20px;
 }
+
+.temp{
+    padding-left: 170px;
+    font-size: 2em;
+}
+
+.other-info{
+    display: inline-block;
+    padding-top: 115px;
+    padding-left: 15px;
+    font-family: 'Prompt', sans-serif;
+
+}
 .pic{
     margin-left: 200px
 }
@@ -36,14 +49,15 @@ body{
 }
 
 .info{
-    display: flex;
-    margin-left: 60px;
+    margin-left: 20px;
     margin-top: 30px;
+    font-family: 'Prompt', sans-serif;
+
 }
 
 .Weather-div.expanded{
-    width: 450px;
-    height: 400px;
+    width: 510px;
+    height: 500px;
 }
 
 .title{
@@ -56,6 +70,8 @@ body{
 
 .header{
     text-align: center;
+    font-family: 'Prompt', sans-serif;
+
 }
 
 .Data{

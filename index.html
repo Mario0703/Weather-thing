@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;500&display=swap" rel="stylesheet">
     <title>Vejr hjemmeside</title>
 </head>
 <body>
@@ -14,11 +17,16 @@
         <img class="button" id = "Search-Button"src="Images/magnifying-glass.svg">
         <h2 id="city" class="header"></h2>
         <img id="Weather-description"class="weather-info pic">
-        <span id="Temp"  class="weather-info info"></span>
-        <span id="FeelsLikeTemp" class="weather-info  info"></span>
-        <span id="CurrentTime"  class="weather-info info"></span>
-        <span id="Windspeed" class="weather-info info"></span>
-        <span id="Humidity" class="weather-info info"></span>
+        <br>
+        <span id="Temp"  class="weather-info info temp"></span>
+        <br>
+        <div class="other-info">
+            <span id="FeelsLikeTemp" class="weather-info  info"></span>
+
+            <span id="CurrentTime"  class="weather-info info"></span>
+            <span id="Windspeed" class="weather-info info"></span>
+            <span id="Humidity" class="weather-info info"></span>
+        </div>
         <button class="weather-info">Celcius</button>
     </div>
     <script src="script.js"></script>
