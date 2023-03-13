@@ -94,8 +94,3 @@ function ShowAPIdata(){
         })
     .catch(error => console.error(error));
 }
-
-
-function FerniteToCelsius(value){
-
-}
